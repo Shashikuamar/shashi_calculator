@@ -5,6 +5,7 @@ public class SumCalculator
 	{
         int a = 5;
         int b = 10;
+  
         int sum = calculateSum(a, b);
         System.out.println("The sum of " + a + " and " + b + " is: " + sum);
   	  }
@@ -17,4 +18,8 @@ public class SumCalculator
 	{
         return x * y;
     	}
-}
+ public static int calculateprod(int x, int y) 
+	{
+        return x - y;
+        }
+        }
